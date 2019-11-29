@@ -5,6 +5,6 @@ Open "index.html" to start playing!
 
 or
 
-Access https://timer00.github.io/pong/index.html to play online!
+Access https://timer00.github.io/pong/ to play online!
 
 `Originally created in 27/02/2016`
