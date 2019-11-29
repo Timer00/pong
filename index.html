@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<script src="js/main.js"></script>
+	</head>
+	<body onload="load()">
+		<div id="canvas">
+			<canvas id="box" width="1000" height="500"></canvas>
+			<div id="Lpoints">0</div>
+			<div id="Rpoints">0</div>
+			<div id="menu">
+				<div id="title">PONG</div>
+				<div id="menuT">Menu</div>
+				<div id="singleP" onclick="showDifficulty()">1 Player</div>
+				<div id="multiP" onclick="multiPlayer()">2 Player</div>
+				<div id="controls" onclick="changeControl()">Controls:<font id="controlMode"> Mouse</div></font>
+				
+				<div id="difficulty">Difficulty:</div>
+				<div id="novice" onclick="novice()">-Novice-</div>
+				<div id="average" onclick="average()">-Average-</div>
+				<div id="expert" onclick="expert()">-Expert-</div>
+			</div>
+			<audio id="wallHits">
+				<source src="audio/wallHit.mp3" type="audio/mp3">  
+			</audio>
+			<audio id="hits">
+				<source src="audio/hit.mp3" type="audio/mp3">  
+			</audio>
+		</div>
+		
+	</body>
+</html>

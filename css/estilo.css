@@ -1,0 +1,97 @@
+#canvas {
+	position: absolute;
+	top: 12%;
+	left: 13%;
+	border: 10px solid white;
+}
+#menu {
+	position: absolute;
+	top: 10%;
+	left: 40%;
+}
+#title {
+	font-size: 80;
+}
+#menuT {
+	position: absolute;
+	left: 33%;
+	font-size: 25;
+	display: block;
+	font-weight: bold;
+}
+#singleP {
+	position: absolute;
+	left: 22%;
+	top: 130%;
+	font-size: 20;
+}
+#multiP {
+	position: absolute;
+	top: 160%;
+	left: 22%;
+	font-size: 20;
+}
+#controls {
+	position: absolute;
+	top: 190%;
+	left: 7%;
+	font-size: 20;
+	width: 300;
+}
+
+#difficulty {
+	position: absolute;
+	left: 10%;
+	font-size: 25;
+	display: none;
+	font-weight: bold;
+}
+#novice {
+	position: absolute;
+	top: 140%;
+	left: 25%;
+	font-size: 20;
+	display: none;
+}
+#average {
+	position: absolute;
+	top: 180%;
+	left: 24%;
+	font-size: 20;
+	display: none;
+}
+#expert {
+	position: absolute;
+	top: 220%;
+	left: 25%;
+	font-size: 20;
+	display: none;
+}
+
+#Lpoints {
+	position: absolute;
+	font-size: 50;
+	top: 5%;
+	left: 15%;
+	display: none;
+}
+#Rpoints {
+	position: absolute;
+	font-size: 50;
+	top: 5%;
+	left: 80%;
+	display: none;
+}
+canvas {
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+html {
+	background-color: black;
+	color: white;
+	font-family: courier new;
+}
